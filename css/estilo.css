@@ -4,6 +4,14 @@ body{
 	font-family: arial;
 }
 
+body::-webkit-scrollbar{
+	width: 6px;
+}
+
+body::-webkit-scrollbar-thumb{
+	background: rgb(17.969, 138, 0);
+}
+
 .container{
 }
 
@@ -103,8 +111,4 @@ body{
 			border-radius: 14px;
 			min-width: 100%;	
 	}
-	
-	.foot{
-		heigt: 270px;
-	}	
 }
