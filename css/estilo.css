@@ -9,7 +9,7 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-thumb{
-	background: rgb(17.969, 138, 0);
+	background: red;
 }
 
 .container{
