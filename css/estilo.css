@@ -2,14 +2,16 @@ body{
 	margin: 0;
 	color: #fff;
 	font-family: arial;
+	background: #242c24;
 }
 
 body::-webkit-scrollbar{
 	width: 6px;
 }
 
-body:-webkit-scrollbar-thumb{
-	background: red;
+body::-webkit-scrollbar-thumb{
+	background: rgb(17.969, 138, 0);
+	border-radius: 5px;
 }
 
 .container{
@@ -65,7 +67,7 @@ body:-webkit-scrollbar-thumb{
 
 .contenido-1 img{
 	border-radius: 14px;
-	min-width: 100%;
+	max-width: 100%;
 }
 
 .contenido-2{
